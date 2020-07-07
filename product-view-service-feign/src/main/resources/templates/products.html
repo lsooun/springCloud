@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>products</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -25,12 +25,17 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="p: ${ps}">
-            <td th:text="${p.id}"></td>
-            <td th:text="${p.name}"></td>
-            <td th:text="${p.price}"></td>
-        </tr>
+            <tr th:each="p: ${ps}">
+                <td th:text="${p.id}"></td>
+                <td th:text="${p.name}"></td>
+                <td th:text="${p.price}"></td>
+            </tr>
         </tbody>
+        <tr>
+            <td colspan="3">
+                <p th:text="${version}" >how2j springcloud version unknown</p>
+            </td>
+        </tr>
     </table>
 </body>
 </html>

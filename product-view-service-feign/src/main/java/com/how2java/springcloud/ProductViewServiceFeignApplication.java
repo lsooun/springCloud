@@ -22,6 +22,12 @@ public class ProductViewServiceFeignApplication {
     public static void main(String[] args) {
         int port;
         int defaultPort = 8010;
+        int rabbitMQPort = 5672;
+        if (NetUtil.isUsableLocalPort(rabbitMQPort)) {
+            System.err.printf("未在端口%d 发现 rabbitMQ 服务，请检查 rabbitMQ 是否启动", rabbitMQPort);
+            System.exit(1);
+        }
+
         Future<Integer> future = ThreadUtil.execAsync(() -> {
             int p;
             System.out.println("请于5秒钟内输入端口号, 推荐  8010  超过5秒将默认使用 " + defaultPort);
