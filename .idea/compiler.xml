@@ -10,6 +10,7 @@
         <module name="eureka-server" />
         <module name="product-view-service-feign" />
         <module name="config-server" />
+        <module name="turbine" />
         <module name="hystrix-dashboard" />
         <module name="product-data-service" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="product-view-service-feign" target="11" />
       <module name="product-view-service-ribbon" target="11" />
       <module name="springcloud" target="11" />
+      <module name="turbine" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,7 @@
       <module name="product-view-service-feign" options="-parameters" />
       <module name="product-view-service-ribbon" options="-parameters" />
       <module name="springcloud" options="-parameters" />
+      <module name="turbine" options="-parameters" />
     </option>
   </component>
 </project>
