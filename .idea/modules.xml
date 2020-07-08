@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-data-service/product-data-service.iml" filepath="$PROJECT_DIR$/product-data-service/product-data-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" filepath="$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-view-service-ribbon/product-view-service-ribbon.iml" filepath="$PROJECT_DIR$/product-view-service-ribbon/product-view-service-ribbon.iml" />

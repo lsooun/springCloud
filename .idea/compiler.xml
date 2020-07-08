@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-view-service-ribbon" />
         <module name="eureka-server" />
-        <module name="config-server" />
-        <module name="product-data-service" />
         <module name="product-view-service-feign" />
+        <module name="config-server" />
+        <module name="hystrix-dashboard" />
+        <module name="product-data-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="11" />
       <module name="eureka-server" target="11" />
+      <module name="hystrix-dashboard" target="11" />
       <module name="product-data-service" target="11" />
       <module name="product-view-service-feign" target="11" />
       <module name="product-view-service-ribbon" target="11" />
@@ -26,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="product-data-service" options="-parameters" />
       <module name="product-view-service-feign" options="-parameters" />
       <module name="product-view-service-ribbon" options="-parameters" />
